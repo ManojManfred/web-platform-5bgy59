@@ -10,15 +10,17 @@
 <main>
     <header>
         <!-- insert banner image and logo as seen in the sample website, the links for the images are provided in the question -->
-        <h1>
+        <img id="toplogo" src="logo..png">
+        <h1 class="top_text">
             Understanding the fundamentals of state in Javascript
         </h1>
-        <p>
-            Designed by insert-your-name-here
+        <p class="name">
+            Billa Manoj Manfred
         </p>
     </header>
 
     <body>
+        <div class="c">
         <div class="introduction">
             <p>Chapter 3 from the book; Vumbula React — Co-authored by
                 John Kagga
@@ -101,6 +103,7 @@
                 Mac or Ctrl+Alt+I on a windows PC. You should now see a React tab.
             </p>
         </div>
+        </div>
     </body>
 </main>
 
@@ -108,3 +111,104 @@
 </body>
 
 </html>
+<style>
+    header {
+    background-color: #263d36;
+    color: white;
+    background-image: url(background.webp);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    max-width: none;
+    padding: 10vw 2em;
+    text-align: center;
+}
+#toplogo {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+}
+.top_text{
+    color: white;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+h1{
+    color: white;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+.name{
+    /* border: 1px solid #e81c4f; */
+    border-radius: 290486px;
+    color: white;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+    p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.c{
+  margin: 0 auto;
+  max-width: 50em;
+}
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+.c {
+  line-height: 1.5;
+  padding: 4em 1em;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+.c {
+  color: #555;
+}
+h1,
+h2,
+strong {
+  color: #333;
+}
+code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+.c {
+  color: #566b78;
+}
+
+code,
+pre {
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  color: #a7adba;
+}
+
+pre {
+  border-left: 2px solid #69c;
+}
+
+</style>
